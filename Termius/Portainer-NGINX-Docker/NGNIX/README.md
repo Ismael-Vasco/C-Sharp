@@ -2,6 +2,8 @@
 
 ![NGINX Proxy Manager](https://cursosdedesarrollo.com/wp-content/uploads/2022/01/logo-npm.png)
 
+### url reference:
+``https://www.youtube.com/watch?v=MlLjBt6hLHs``
 ## 📌 ¿Qué es NGINX Proxy Manager?
 
 **NGINX Proxy Manager** es una herramienta basada en Docker para administrar fácilmente proxies reversos con una interfaz web. Permite:
