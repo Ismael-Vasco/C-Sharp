@@ -1,0 +1,21 @@
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: always
+    networks:
+      - general-net
+    ports:
+      - "8000:8000"  # Puerto para conexiones de agente, 
+      - "9000:9000"  # Puerto de la interfaz web (legacy)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock  # Permite gestionar Docker desde Portainer
+      - portainer_data:/data  # Persistencia de datos, almacenamiento de configuración y datos de Portainer
+
+networks:
+  general-net:
+    external: true  
+
+volumes:
+  portainer_data:
+    external: true
