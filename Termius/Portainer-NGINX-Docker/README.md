@@ -48,3 +48,19 @@ Example:
 
 * App Node on port 3000
 * DB in another container
+
+---
+
+## Steps to create a ``local domain`` (e.g., project.local):
+
+### Windows:
+1. Open the ``Notepad`` as an Administrator (or ``powershell``).
+2. Open the etc hosts file ``C:\Windows\System32\drivers\etc\hosts``
+3. Add at the end: ``127.0.0.1 project.local``
+4. Save changes.
+
+### macOS/Linux:
+1. Open the terminal.
+2. Executes: ``sudo nano /etc/hosts``
+3. Add: ``127.0.0.1 project.local``
+4. Save (Ctrl+O, Enter) and exit (Ctrl+X).
