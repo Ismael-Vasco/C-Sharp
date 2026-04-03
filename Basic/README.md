@@ -1,9 +1,7 @@
-<p align="center"><img src="https://thelittlecoder.com/wp-content/uploads/2021/05/CSharp-Essentials.jpg" width="800" alt="logo"></p>
-
 C# is a modern programming language developed by Microsoft. Since its launch in the year 2000, it has gained popularity for its power and ease of use.
 ## Menú
 ### Basic concepts
-- [introduction to C#](./README.md)
+- ![introduction to C#](./README.md)
 - [strings](./01_basic_concepts/strings/01_basic.md)
 - [string methods and properties](./01_basic_concepts/strings/02_string_methods_and_properties.md)
 - [numbers](./01_basic_concepts/numbers/01_basic.md)
