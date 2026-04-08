@@ -2,6 +2,29 @@
 
 Este documento contiene **todas las operaciones posibles** sobre la entidad `User` usando **Entity Framework Core**, incluyendo CRUD, consultas avanzadas, asíncronas, SQL crudo y control de estados.
 
+
+### 1. Instalar Dependencias
+#### Microsoft.EntityFrameworkCore
+```bash
+dotnet add package Microsoft.EntityFrameworkCore --version <version>
+```
+#### 
+```
+```
+### 2. Usar migraciones
+
+Instala herramientas si no las tienes:
+```bash
+dotnet tool install --global dotnet-ef
+```
+Luego:
+```bash
+dotnet ef migrations add InitialCreate
+```
+```bash
+dotnet ef database update
+```
+
 ---
 
 ## 🔹 Crear (INSERT)
