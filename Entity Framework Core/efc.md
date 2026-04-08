@@ -8,9 +8,7 @@ Este documento contiene **todas las operaciones posibles** sobre la entidad `Use
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore --version <version>
 ```
-#### 
-```
-```
+
 ### 2. Usar migraciones
 
 Instala herramientas si no las tienes:
